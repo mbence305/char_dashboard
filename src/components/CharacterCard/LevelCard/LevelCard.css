@@ -1,0 +1,15 @@
+.char-class{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.level-card{
+    display: flex;
+}
+
+.char-class-info{
+    margin-left: 1em;
+    text-align: left;
+    color:floralwhite;
+}

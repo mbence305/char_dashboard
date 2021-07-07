@@ -1,0 +1,9 @@
+.statcard{
+    background-color: none;
+    border-radius:  7px;
+    opacity: 0.95;
+    color:mintcream;
+    display: flex;
+    align-items: center;
+}
+

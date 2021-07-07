@@ -1,0 +1,41 @@
+.char-build{
+
+}
+
+.char-card h3, .char-card h4, .char-card h5{
+    margin-block-end: 0em;
+   margin-block-start: 0em;
+}
+
+.char-card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    align-items: center;
+    background: rgb(47,79,79);
+    background: linear-gradient(180deg, rgba(47,79,79,1) 35%, rgba(9,9,32,1) 73%);
+    border-radius: 1em;
+    margin: 1em;
+}
+
+.char-name{
+    color:floralwhite;
+}
+
+.char-build{
+    color:floralwhite;
+    opacity: 0.6;
+    margin-bottom: 1em;
+}
+
+.char-icon{
+    width: 60%;
+    border:firebrick 3px solid;
+    border-radius:  8px;
+    margin-bottom: 1em;
+}
+
+.progressbar{
+    margin-bottom: 1em;
+}
