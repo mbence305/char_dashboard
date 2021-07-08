@@ -17,6 +17,15 @@ function App() {
     LevelUp: 2700
   };
 
+  const throws = [
+    {ID: 1, StatName: "INT", StatNum: "12", Modifier: "+1"},
+    {ID: 2, StatName: "STR", StatNum: "14", Modifier: "+2"},
+    {ID: 3, StatName: "CON", StatNum: "10", Modifier: "+0"},
+    {ID: 4, StatName: "CHA", StatNum: "15", Modifier: "+2"},
+    {ID: 5, StatName: "DEX", StatNum: "10", Modifier: "+0"},
+    {ID: 6, StatName: "WIS", StatNum: "14", Modifier: "+2"},
+  ];
+
   const stats = [
     {ID: 1, StatName: "INT", StatNum: "12", Modifier: "+1"},
     {ID: 2, StatName: "STR", StatNum: "14", Modifier: "+2"},
@@ -27,7 +36,7 @@ function App() {
   ];
   return (
     <div className="App">
-      <CharSheet stats={stats} char_object={char_object}/>
+      <CharSheet throws={throws} stats={stats} char_object={char_object}/>
     </div>
   );
 }

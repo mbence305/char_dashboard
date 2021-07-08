@@ -1,10 +1,10 @@
 import React from 'react';
-import './BaseStats.css';
+import './SaveThrows.css';
 import StatCard from './StatCard/StatCard';
 
-const BaseStats = (props) =>{
+const SaveThrows = (props) =>{
 
-    const cards = props.stats.map((item) => {
+    const cards = props.throws.map((item) => {
         return (
             <StatCard key={item.ID} StatName={item.StatName} Modifier={item.Modifier} StatNum={item.StatNum}/>
         );
@@ -16,4 +16,4 @@ const BaseStats = (props) =>{
     );
 };
 
-export default BaseStats;
+export default SaveThrows;

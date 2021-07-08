@@ -1,23 +1,26 @@
 import CharacterCard from "../CharacterCard/CharacterCard";
-import BaseStats from "../BaseStats/BaseStats";
+import SaveThrows from "../BaseStats/SaveThrows";
+import MainStats from "../MainStats/MainStats";
+import UtilityStats from "../UtilityStats/UtilityStats";
 import './CharSheet.css';
 
 const ChaarSheet = (props) =>{
     return(
         <div class="container">
             <div class="left-col">
-                <BaseStats stats={props.stats}/>
+                <SaveThrows throws={props.throws}/>
             </div>
             <div class="mid-col">
-                <BaseStats stats={props.stats}/>
+                <SaveThrows throws={props.throws}/>
             </div>
             <div class="right-col">
-                <BaseStats stats={props.stats}/>
+                <SaveThrows throws={props.throws}/>
             </div>
             <div class="char-header">
                 <CharacterCard char= {props.char_object}/>  
                 <div class="main-char-infor">
-                    <BaseStats stats={props.stats}/>
+                    <MainStats stats={props.stats}/>
+                    <UtilityStats />
                 </div>
             </div>
         </div>
