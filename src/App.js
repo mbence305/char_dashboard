@@ -34,9 +34,13 @@ function App() {
     {ID: 5, StatName: "DEX", StatNum: "10", Modifier: "+0"},
     {ID: 6, StatName: "WIS", StatNum: "14", Modifier: "+2"},
   ];
+
+  const skills=[
+    {ID: 1,Prof: true, Mod:"DEX", Skill:"Acrobatics", Bonus:"+0"}
+  ];
   return (
     <div className="App">
-      <CharSheet throws={throws} stats={stats} char_object={char_object}/>
+      <CharSheet throws={throws} stats={stats} skills={skills} char_object={char_object}/>
     </div>
   );
 }
